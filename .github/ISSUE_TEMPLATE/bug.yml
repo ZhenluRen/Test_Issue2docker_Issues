@@ -35,7 +35,7 @@ body:
         - 3.11
         - 3.10
         - 3.9
-        - Other version, please state below
+        - Other version, please specify below
   - type: input
     id: way-of-installation
     attributes:
@@ -54,7 +54,7 @@ body:
         - 1.5.2
         - 1.5.1
         - 1.5.0
-        - Other version, please state below
+        - Other version, please specify below
   - type: textarea
     id: environment-additional
     attributes:
