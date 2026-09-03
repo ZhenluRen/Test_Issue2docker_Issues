@@ -3,5 +3,4 @@ channels:
   - conda-forge
 
 dependencies:
-  - python=3.13
   - pygimli=1.6.0
