@@ -36,7 +36,7 @@ body:
         - 3.10
         - 3.9
         - Other version, please specify below
-    - type: dropdown
+  - type: dropdown
     id: way-of-installation
     attributes:
       label: Way of installation
