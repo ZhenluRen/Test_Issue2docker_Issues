@@ -36,11 +36,20 @@ body:
         - 3.10
         - 3.9
         - Other version, please specify below
-  - type: input
+    - type: dropdown
     id: way-of-installation
     attributes:
       label: Way of installation
       description: Please describe your way of installing pyGIMLi, e.g. Conda package, manual compilation from source etc.
+      options:
+        - pip
+        - conda
+        - Other method, or installation unsuccessful
+  - type: input
+    id: way-of-installation-other
+    attributes:
+      label: Other way of installation
+      description: Please describe here if you used other installation method, or the installation was unsuccessful
   - type: dropdown
     id: pygimli-version
     attributes:
