@@ -1,0 +1,33 @@
+name: pgdev
+channels:
+  - conda-forge
+  - defaults
+  - gimli
+dependencies:
+  - pgcore >= 1.6.0
+  - matplotlib
+  - jupyter
+  - sphinx >= 3.1
+  - pytest
+  - numpy
+  - scipy >= 1.14
+  - pytest-cov
+  - pytest-html
+  - sphinx-gallery
+  - sphinxcontrib-bibtex
+  - sphinxcontrib-programoutput
+  - sphinxcontrib-spelling
+  - sphinxcontrib-doxylink
+  - sphinx-autobuild
+  - bibtexparser
+  - pyvista[all,trame]>=0.46
+  - meshio
+  - scooby
+  - tqdm
+  - sphinx-design
+  - pydata-sphinx-theme
+  - myst-nb
+  - jupytext
+  - trame-vtk
+  - conda-build
+  - linkify-it-py
